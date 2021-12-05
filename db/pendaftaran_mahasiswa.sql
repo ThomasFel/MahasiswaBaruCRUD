@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 05, 2021 at 01:55 PM
+-- Generation Time: Dec 05, 2021 at 04:41 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.4.21
 
@@ -32,7 +32,7 @@ CREATE TABLE `calon_mahasiswa` (
   `nama` varchar(64) NOT NULL,
   `alamat` varchar(255) NOT NULL,
   `jenis_kelamin` varchar(16) NOT NULL,
-  `agama` varchar(16) NOT NULL,
+  `agama` varchar(20) NOT NULL,
   `sekolah_asal` varchar(64) NOT NULL,
   `departemen` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
